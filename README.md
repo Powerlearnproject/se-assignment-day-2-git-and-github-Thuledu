@@ -103,7 +103,7 @@ How a Well-Written README Contributes to Effective Collaboration
 Public vs. Private Repositories on GitHub
 Public and private repositories on GitHub serve different purposes and are suited for different types of projects. Below is a detailed comparison of their differences, along with the advantages and disadvantages of each, particularly in the context of collaborative projects.
 
-Public Repositories
+#Public Repositories
 Definition: 
 A public repository on GitHub is a storage space for your code, files, and project history that is openly accessible to anyone on the internet. Anyone can view, clone, or fork it without needing special permissions, though only you and collaborators you designate can push changes or contribute directly. It’s designed for sharing work with the broader community—like open-source projects—where transparency and collaboration are the goals. People can see your code, report issues, or even suggest improvements through pull requests, but you still control who gets write access if you want to manage contributions. It’s the opposite of a private repository, which locks down visibility.
 
@@ -116,7 +116,7 @@ Disadvantages:
 * Intellectual Property Concerns: If your project contains sensitive or proprietary code, a public repository may not be suitable, as anyone can access and potentially misuse the code.
 * Security Risks: Public repositories are more susceptible to security risks, such as unauthorized access or malicious activities, as they are openly accessible. 
 
-Private Repositories
+#Private Repositories
 Definition: 
 A private repository on GitHub is a storage space for your code, files, and project history that is only accessible to you and the people you explicitly choose to share it with. Unlike a public repository, which anyone on the internet can view, a private repository restricts access so that only invited collaborators—such as team members or specific GitHub users you grant permission to—can see or contribute to it. You control who gets access, typically by adding them as collaborators through GitHub’s settings, and you can set permissions like read-only or write access. It’s a way to keep your work confidential, whether it’s for personal projects, proprietary software, or anything you’re not ready to share with the world.
 
@@ -145,11 +145,11 @@ In the context of version control systems like Git, a commit is a snapshot of th
 
 Steps to Make Your First Commit
 1. Clone the Repository: If you haven't already, clone the GitHub repository to your local machine using the `git clone <repository_url>` command.
-2. Navigate to the Repository: Open a terminal or command prompt and navigate to the local repository directory using the cd <repository_name> command.
+2. Navigate to the Repository: Open a terminal or command prompt and navigate to the local repository directory using the `cd <repository_name> `command.
 3. Create or Modify Files: Add a new file or make changes to an existing file in the repository.
 4. Stage the Changes: Use the `git add <file_name>` command to stage the changes you want to include in the commit. This adds the modified files to the staging area, preparing them for the commit.
-Alternatively, you can use git add . to stage all the changes in the current directory.
-5. Create the Commit: Run the git commit -m "Descriptive commit message" `git commit -m "Desciptive commit message" ` command to create a new commit. The -m flag allows you to provide a commit message, which should be a brief, meaningful description of the changes you've made.
+Alternatively, you can use `git add .` to stage all the changes in the current directory.
+5. Create the Commit: Run the `git commit -m "Desciptive commit message" ` command to create a new commit. The -m flag allows you to provide a commit message, which should be a brief, meaningful description of the changes you've made.
 Example: `git commit -m "Add initial README file" `
 6. Push the Commit: Finally, use the git push command to upload your local commit to the remote GitHub repository. This makes your changes visible to other collaborators.
 Example: `git push`
